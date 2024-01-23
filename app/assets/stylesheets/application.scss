@@ -1,8 +1,22 @@
-@import "bootstrap-sprockets";
-@import "bootstrap";
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: font-url('glyphicons-halflings-regular.eot');
+  src: font-url('glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
+  font-url('glyphicons-halflings-regular.woff') format('woff'),
+  font-url('glyphicons-halflings-regular.ttf') format('truetype'),
+  font-url('glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+
+@import 'bootstrap-sass/assets/stylesheets/bootstrap-sprockets';
+@import 'bootstrap-sass/assets/stylesheets/bootstrap';
 
 @import "contextmenu";
-@import "font-awesome";
+$fa-font-path: 'fonts/fontawesome/webfonts';
+@import '@fortawesome/fontawesome-free/scss/fontawesome';
+@import '@fortawesome/fontawesome-free/scss/solid';
+@import '@fortawesome/fontawesome-free/scss/regular';
+@import '@fortawesome/fontawesome-free/scss/brands';
+@import '@fortawesome/fontawesome-free/scss/v4-shims';
 @import "loading";
 
 @import "gentelella/src/scss/custom";

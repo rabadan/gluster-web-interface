@@ -1,6 +1,6 @@
 class Web::HomeController < WebController
     def index
-        @current_dir = "/mnt"
+        @current_dir = "/Users/rabadan/Projects/gluster-web-interface/tmp"
     end
 
     def file_download
